@@ -2,6 +2,8 @@
 
 
 ## Mac OS X
+    conan remote add conan-community https://api.bintray.com/conan/conan-community/conan
+    conan remote add catchorg https://api.bintray.com/conan/catchorg/Catch2
     conan install . --build missing
     mkdir build
     cd build
