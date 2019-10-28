@@ -1,4 +1,4 @@
-# conan-boost-eigen-cmake
+# conan-boost-eigen-catch2-cmake
 
 
 ## Mac OS X
