@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Conan
+conan.lock
+conanbuildinfo.cmake
+conanbuildinfo.props
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
