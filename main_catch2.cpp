@@ -1,4 +1,4 @@
-// copied from https://github.com/catchorg/Catch2/blob/master/examples/110-Fix-ClassFixture.cpp
+// Quanteek: copied from https://github.com/catchorg/Catch2/blob/master/examples/110-Fix-ClassFixture.cpp
 // 110-Fix-ClassFixture.cpp
 
 // Catch has two ways to express fixtures:
@@ -6,7 +6,7 @@
 // - Traditional class-based fixtures (this file)
 
 // main() provided in 000-CatchMain.cpp
-
+#define CATCH_CONFIG_MAIN //Quanteek: added from original example from https://stackoverflow.com/questions/50580339/catch2-undefined-reference-to
 #include <catch2/catch.hpp>
 
 class DBConnection
