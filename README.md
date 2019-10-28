@@ -9,4 +9,5 @@
     cd build
     cmake .. -G "Unix Makefiles"
     make
-    ctest .
+    bin/test_catch
+    bin/test_boost
